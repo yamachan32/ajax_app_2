@@ -51,4 +51,4 @@ production:
   <<: *default
   database: ajax_app_2_production
   username: ajax_app_2
-  password: <%= ENV['ajax_app_2_DATABASE_PASSWORD'] %>
+  password: <%= ENV['AJAX_APP_2_DATABASE_PASSWORD'] %>
